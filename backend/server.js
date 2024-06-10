@@ -8,7 +8,7 @@ const nodemailer = require('nodemailer');
 const session = require('express-session');
 const app = express();
 const port = 3000;
-localIP = '192.168.50.95'
+
 
 const userDB = '../db/users.db';
 const bookDB = '../db/newbooks.db';
@@ -56,9 +56,9 @@ app.use(session({
 }));
 
 const adminUser = {
-    username: 'Admin',
+    username: '<Admin>',
     email: 'admin@admin.com',
-    password: 'Admin@123',
+    password: '<password>',
     role: 'admin',
   };
   
