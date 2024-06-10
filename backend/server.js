@@ -28,8 +28,8 @@ const transporter = nodemailer.createTransport({
     host: "smtp.mailgun.org",
     port: 587,
     auth: {
-        user: "postmaster@sandbox73c8004fc1cb4b8787139d43e2b72a83.mailgun.org",
-        pass: "67a1af0b146435f53dc12b1e0a533a37-a4da91cf-f997ee83"
+        user: "MAILGUN@EMAILID",
+        pass: "MAILGUN@PASSWORD"
     }
 });
 
